@@ -16,3 +16,5 @@ REACT: Front-end framework or JS library for building UI.
     --> Props: It works like atributes to a function is JS. But here they are like atributes to the COMPONENTS.
 
 VITE: development server for front-end projects.
+
+TAILWIND CSS: will be used to help styling with css.
