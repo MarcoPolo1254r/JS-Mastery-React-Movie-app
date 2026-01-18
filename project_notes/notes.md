@@ -18,3 +18,5 @@ REACT: Front-end framework or JS library for building UI.
 VITE: development server for front-end projects.
 
 TAILWIND CSS: will be used to help styling with css.
+
+APPWRITE: ...
