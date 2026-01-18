@@ -6,12 +6,12 @@ const Card = ({title}) => {
   const [hasLiked, setHasLiked] = useState(false);
   
   useEffect(() => {
-    console.log(`${title} has been liked: ${hasLiked}`)
-  })
+    console.log(`${title} has been liked: ${!hasLiked}`);    
+  },[hasLiked]);
 
   return (
-    <div className="card" onClick={()=>setCount((prevState) => prevState + 1)}>
-      <h1> {title} </h1>
+    <div className="card" onClick={()=> setCount((prevState) => prevState + 1)}>
+      <h1> {title} <br /> {count} </h1>
       <button onClick={() => setHasLiked(!hasLiked)}>
         {hasLiked ? 'Liked' : "Like"}
       </button>
