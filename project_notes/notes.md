@@ -20,3 +20,6 @@ VITE: development server for front-end projects.
 TAILWIND CSS: will be used to help styling with css.
 
 APPWRITE: ...
+
+TMDB API: API to collect movies infro
+    
