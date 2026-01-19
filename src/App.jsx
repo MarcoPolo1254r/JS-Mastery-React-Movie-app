@@ -3,8 +3,8 @@ import Search from './components/Search.jsx';
 import { useState } from 'react';
 
 const App = () => {
-  const [searchTerm,setSearchTerm] = useState('IM SUPERMAN');
-
+  const [searchTerm,setSearchTerm] = useState('');
+  
   return (
     <main>
       <div className="pattern" />
